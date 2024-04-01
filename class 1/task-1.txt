@@ -1,0 +1,10 @@
+1 ===> Create a CV in html with the name of cv.html
+2 ===> main Heading should be all Students name (Own name)
+3 ===> Address, Qualification , Age, Descripton 
+
+4===> address should be a heading 
+	4.1 ==> Address Detail should be a Description/ 		Paragraph
+5===> Qualification/Age should be a heading 
+	5.1 ==> Qualification/Age Detail should be a 		Description/Paragraph
+6===> Descripton(about your self) should be a heading 
+	6.1 ==> Descripton Detail should be a 		Description/Paragraph
