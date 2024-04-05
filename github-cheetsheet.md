@@ -1,3 +1,6 @@
+Github cheetSheet
+
+
 1 ==> login into github 
 2 ==> create a new repo 
 3 ==> git clone [link] (no need to add any brakcets or keyword)
