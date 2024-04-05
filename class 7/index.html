@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 06</title>
+    <!-- css standfor casecadding style sheet -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    
+
+    <center>
+
+        <form>
+            <!-- <h1>Signup Form</h1> -->
+            <fieldset>
+                <legend>Signup Form</legend>
+
+                <table>
+                    <tr>
+                        <td>
+                            First Name :
+                        </td>
+                        <td class="input">
+                            <input type="text" placeholder="Enter your First Name" size="30" maxlength="30"
+                                name="fNmae" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Last Name :
+                        </td>
+                        <td class="input">
+                            <input type="text" size="30" placeholder="Enter your Last Name" maxlength="30"
+                                name="Lname" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Email :
+                        </td>
+                        <td class="input">
+                            <input type="text" size="30" placeholder="Enter your Email Address " maxlength="30" required
+                                name="email" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Password :
+                        </td>
+                        <td class="input">
+                            <input type="password" required size="30" placeholder="Enter your Password Carefully"
+                                maxlength="30" name="password" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Male :
+                        </td>
+                        <td class="input">
+                            <input type="radio" name="gender" value="male" />
+                        </td>
+                        <td>
+                            Female :
+                        </td>
+                        <td class="input">
+                            <input type="radio" checked name="gender" value="female" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Additional Compliment</td>
+                        <td class="input">
+                            <textarea name="Comment" cols="10" rows="5" placeholder="enter Your Commment"></textarea>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>Enter your Hobbies :</td>
+
+                        <td class="input">
+                            Cricket : <input type="checkbox" checked name="Hobbies" id="">
+                            Hockey : <input type="checkbox" name="Hobbies" id="">
+                            Football : <input type="checkbox" name="Hobbies" id="">
+                            Basketball : <input type="checkbox" name="Hobbies" id="">
+                            Badmintor : <input type="checkbox" checked name="Hobbies" id="">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <label for="class timing">
+
+
+                            <td id="">choose your classes timing</td>
+                            <td class="input">
+
+                                <select name="ClassesTiming" size="5" multiple>
+                                    <option value="9 to 11">9 to 11</option>
+                                    <option value="12 to 2">12 to 2</option>
+                                    <option value="4 to 2">4 to 2</option>
+                                    <option value="6 to 8"> 6 to 8</option>
+                                    <option value="9 to 12">9 to 12</option>
+                                    <option value="11 to 1">11 to 1</option>
+                                </select>
+
+                            </td>
+                        </label>
+                    </tr>
+                    <tr>
+                        <td class="input">
+                            Coses you Recent Image :
+                            <input type="file" name="profile Image">
+
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="input"><input type="submit" value="signup"></td>
+                    </tr>
+                    <!-- <tr>
+                    <td><input type="image" src="./../class 4/test.jpg" alt=""></td>
+                </tr> -->
+                    <!-- <button> Submit</button> -->
+                    <tr>
+                        <td>
+                            <button>clik me</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <fieldset>
+                                <legend>
+                                    Contact Details :
+                                </legend>
+                                <label for="phone number">
+                                    Phone Numbner :
+                                    <input type="text">
+                                </label>
+                                <label for="Mobile number">
+                                    Mobile Numbner :
+                                    <input type="text">
+                                </label>
+
+                            </fieldset>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="birthday month">
+                                selct your birthday month :
+                                <input type="date" name="birthday month">
+                            </label>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="search" name="google" id="">
+                        </td>
+                    </tr>
+
+                </table>
+            </fieldset>
+        </form>
+
+    </center>
+</body>
+
+</html>
