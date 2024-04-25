@@ -1,0 +1,62 @@
+@font-face {
+    /* font-family: 'roboto';
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+
+    /* font-family: 'Jacquard';
+    src: url('https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap'); */
+    font-family: 'Dancing Script';
+    src: url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Micro+5+Charted&display=swap') format('embedded-opentype')
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Micro+5+Charted&display=swap');
+
+.red {
+    font-family: 'roboto';
+    text-align: left;
+    color: red;
+    font-size: 50px;
+    /* text-shadow: 2px 20px 5px gray; */
+}
+
+.red::first-letter {
+    font-family: 'roboto';
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-shadow: 2px 20px 5px gray;
+}
+
+div>p {
+    font-family: "Dancing Script", cursive;
+
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    /* text-transform: uppercase; */
+    text-transform: capitalize;
+    /* text-decoration:line-through ;*/
+    font-style: italic;
+    /* line-height: 100px; */
+    /* letter-spacing: 20px; */
+    word-spacing: 30px;
+    /* text-align: ; */
+}
+
+.image {
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg");
+    opacity: 0.5;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    text-indent: 9999px;
+    color: rgb(255, 247, 247);
+}
+
+.link a:hover {
+    color: deeppink;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+.link a:visited {
+    color: rgb(61, 245, 0);
+}
