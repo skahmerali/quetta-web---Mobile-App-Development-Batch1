@@ -1,0 +1,119 @@
+ol {
+    list-style-type: lower-roman;
+}
+
+ul {
+    /* list-style-type: circle; */
+    list-style-image: url("https://www.freepngimg.com/thumb/star/1-red-star-png-image-thumb.png");
+    list-style: outside;
+    width: 10px;
+}
+
+body {
+    font-family: Arial, Verdana, sans-serif;
+    color: #111111;
+}
+
+table {
+    width: 1000px;
+}
+
+th,
+td {
+    padding: 7px 10px 10px 10px;
+}
+
+th {
+    text-transform: capitalize;
+    letter-spacing: 0.1em;
+    font-size: 90%;
+    border-bottom: 2px dashed #111111;
+    border-top: 1px solid #ff0101;
+    text-align: left;
+}
+
+tr.even {
+    background-color: #efefef;
+}
+
+tr:hover {
+    background-color: #ff6e6e;
+}
+
+.money {
+    text-align: center;
+}
+
+.spacific {
+    background-color: rgb(205, 250, 250);
+}
+
+
+input {
+    font-size: 120%;
+    color: #5a5854;
+    background-color: #f2f2f2;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    padding: 5px 5px 5px 30px;
+    background-repeat: no-repeat;
+    background-position: 8px 9px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input:focus {
+    background-color: #b4eef3;
+    border: 1px solid #b1e1e4;
+}
+
+input#email {
+    /* background-image: url("images/email.png"); */
+    background-color: #fd9292;
+}
+
+input#twitter {
+    background-image: url("images/twitter.png");
+    background-color: #ff8787;
+}
+
+input#web {
+    background-image: url("images/web.png");
+    background-color: #3cff01;
+}
+
+.registerbtn {
+    width: 200px;
+    height: 50px;
+    background-color: #f1c2c2;
+    border: 2px solid yellowgreen;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+.registerbtn:hover {
+    box-shadow: 5px 0px 8px 10px yellowgreen;
+    text-shadow: 10px 2px 4px rgb(34, 34, 34);
+    font-size: 30px;
+    /* cursor: pointer; */
+    cursor: wait;
+}
+
+fieldset {
+    width: 350px;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: right;
+}
+
+legend {
+    background-color: #efefef;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: left;
+    text-transform: uppercase;
+}
+

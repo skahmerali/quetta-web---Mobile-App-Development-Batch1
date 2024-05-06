@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+p.one {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+
+p.two {
+    overflow: scroll;
+}
+.navbar{
+    width: 100%;
+    background-color: black;
+}
+ul {
+    width: 70%;
+    /* width:80% ; */
+    margin: auto;
+    height: 70px;
+    text-align: center;
+}
+
+li {
+    width: 100px;
+    /* height: 50px; */
+    /* border: 2px solid red; */
+    -webkit-border-image: url('https://i.stack.imgur.com/sjbeu.png');
+    border-image: url('https://i.stack.imgur.com/sjbeu.png');
+    /* border-image-repeat: repeat; */
+    display: inline-block;
+    /* margin-right: 10px; */
+    background-color: white;
+    margin: 5px;
+    line-height: 50px;
+    border-radius: 30px;
+    /* color: white; */
+    box-shadow: -20px 0 0 10px #ff0b0b;
+}
+li a{
+    /* width: 100px; */
+    /* color: black; */
+    background-color: black;
+    color: white;
+}
+li.coming-soon {
+    display: none;
+}
+ li:hover{
+    width: 100px;
+    height: 50px;
+    background-color: black ;
+    box-shadow: inset 0 0 10px #ff0b0b;
+}

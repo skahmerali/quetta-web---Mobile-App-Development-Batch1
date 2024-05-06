@@ -1,0 +1,49 @@
+.main {
+    width: 95%;
+    height: auto;
+    border: 5px solid rgb(0, 0, 0);
+    margin: auto;
+}
+
+.navbar {
+    width: 70%;
+    height: 50px;
+    /* border: 1px solid gainsboro; */
+    background-color: brown;
+    margin: auto;
+}
+.mainBox{
+    width:90% ;
+    margin: auto;
+    /* align-items: center; */
+    /* text-align: center; */
+}
+.boxes {
+    width: 17%;
+    min-width: 86px;
+    /* max-width: 85px; */
+    border: 1px solid rgb(0, 0, 0);
+    height: 400px;
+    background-color: rgb(114, 255, 48);
+    display: inline-block;
+    margin: 1% auto;
+    /* text-align: center; */
+    /* align-items: center; */
+    padding: 5px ;
+    /* align-self: center; */
+    /* align-content: center; */
+}
+
+.center{
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+}
+.center p{
+    width: 100%;
+    text-align: center;
+    line-height: 200px;
+    /* padding: 75px 0px; */
+    /* margin-top: 50px; */
+    /* align-items: center; */
+}
