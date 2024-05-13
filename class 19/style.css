@@ -1,0 +1,64 @@
+body {
+    width: 750px;
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;
+    background-color: blue;
+    /* position: static; */
+
+}
+
+.main {
+    width: 500px;
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;
+    background-color: rgb(85, 255, 0);
+    background-image: url(https://img.freepik.com/free-photo/global-business-internet-network-connection-iot-internet-things-business-intelligence-concept-busines-global-network-futuristic-technology-background-ai-generative_1258-176762.jpg);
+    background-attachment: fixed;
+    color: white;
+    /* position: relative;
+    left: 200px; */
+
+}
+
+/* h1 {
+    background-color: #efefef;
+    padding: 10px;
+    position: fixed;
+    top: 29px;
+    /* z-index: 100; */
+/* } */
+
+/* p {
+    width: 450px;
+    background-color: #ff1c1c;
+
+    margin-top: 80px; */
+/* position: relative;
+    left: 30px;
+} */
+
+h1 {
+    position: fixed;
+    top: 0px;
+    /* left: 50px; */
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    background-color: #efefef;
+}
+
+blockquote {
+    float: right;
+    width: 275px;
+    font-size: 130%;
+    font-style: italic;
+    font-family: Georgia, Times, serif;
+    margin: 0px 0px 10px 10px;
+    padding: 10px;
+    border-top: 1px solid #665544;
+    border-bottom: 1px solid #665544;
+}
+
+p.example {
+    margin-top: 100px;
+}
