@@ -1,0 +1,40 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+.container{
+  display:flex;
+  justify-content: center;
+  flex-direction:row;
+  align-items:center;
+  gap: 40px;
+  height:100vh;
+}
+
+.box{
+  height:300px;
+  width:400px;
+  background-color:red;
+}
+
+.box img{
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width:1310px){
+  .box{
+    width:300px;
+  }
+}
+@media (max-width:1010px){
+  .conatiner{
+    gap:30px
+  }
+  .box{
+    width:250px;
+    height:250px
+  }
+}
+
