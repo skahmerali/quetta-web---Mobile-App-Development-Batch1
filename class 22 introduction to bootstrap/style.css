@@ -1,0 +1,9 @@
+.row-custom {
+    width : 80%;
+    margin : auto 
+}
+.row-custom div {
+    display: inline-block;
+    margin: 4%;
+    text-align: center;
+}
