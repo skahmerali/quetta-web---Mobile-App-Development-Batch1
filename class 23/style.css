@@ -1,0 +1,57 @@
+/* 
+div{
+    width: ;
+} */
+.container {
+    display: inline-grid;
+    width: 100%;
+    height: 100px;
+    border: 1px solid blue;
+    background-color: brown;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    /* grid-template-columns: 1fr 50px 1fr 1fr;
+    grid-template-columns: [first] 100px [line2] auto [line3] auto [col4-start] 200px [end]; */
+    /* grid-template-rows: [row1-start] 50% [row1-end] 100px [third-line] auto [last-line]; */
+    /* grid-template-rows: [row1-start] 50% [row1-end row2-start] 50% [row2-end]; */
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "hd"
+        "main"
+        "sd"
+        "ft";
+}
+
+.child-a {
+    grid-area: hd;
+}
+
+.child-d {
+    grid-area: ft;
+}
+
+.child-b {
+    grid-area: main;
+}
+
+.child-c {
+    grid-area: sd;
+}
+
+/* .chFild {
+    grid-area: header | <row-start> / <column-start> / <row-end> / <column-end>;
+  } */
+
+.container div {
+    /* width: 10%; */
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid red;
+}
+
+/* .child-a {
+    grid-column-start: 4;
+    grid-column-end: five;
+    grid-row-start: row1-start;
+    grid-row-end: 5;
+} */
