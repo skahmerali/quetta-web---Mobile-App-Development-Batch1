@@ -42,14 +42,15 @@ var text = "Lorem ipsum dolor sit amet, World War II consectetur adipisicing eli
 
 for (var i = 0; i < text.length; i++) {
     var firstChar = text.indexOf("World War II");
-    console.log(firstChar)
+    // console.log(firstChar)
     if (firstChar !== -1) {
-        console.log(text.slice(0, firstChar))
+        // console.log(text.slice(0, firstChar))
         text = text.slice(0, firstChar) + "the Second World War" + text.slice(firstChar + 12);
+        console.log(text.slice(firstChar + 12));
     }
 }
 // {var text = "To be or not to be.";
 // var segIndex = text.lastIndexOf("be");}
 
 
-console.log(text)
+// console.log(text)
