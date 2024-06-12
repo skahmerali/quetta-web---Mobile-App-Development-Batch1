@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>SignUp</h1>
+    <table class="signup">
+        <tr>
+            <td>firstName : </td>
+            <td><input type="text"  id="firstName"></td>
+        </tr>
+        <tr>
+            <td>Last Name : </td>
+            <td><input type="text" id="lastName"></td>
+        </tr>
+        <tr>
+            <td>Email : </td>
+            <td><input type="email"  id="email"></td>
+        </tr>
+        <tr>
+            <td>Password : </td>
+            <td><input type="text" id="password"></td>
+        </tr>
+        <tr>
+            <td>Conifrm Password : </td>
+            <td><input type="text" id="conifrmPassword"></td>
+        </tr>
+        <tr>
+            <td>
+                <button onClick="signup()">
+                    Register
+                </button>
+            </td>
+        </tr>
+        
+        <!-- <tr>
+            <td></td>
+            <td></td>
+        </tr> -->
+    </table>
+
+    <h1>Login</h1>
+    <table class="login">
+        <tr>
+            <td>Email : </td>
+            <td><input type="email"  id="loginEmail"></td>
+        </tr>
+        <tr>
+            <td>Password : </td>
+            <td><input type="text" id="loginPassword"></td>
+        </tr>
+        <tr>
+            <td>
+                <button onClick="login()">
+                    Login
+                </button>
+            </td>
+        </tr>
+        
+    </table>
+
+    <div id="result">
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
